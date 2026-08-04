@@ -1,4 +1,4 @@
-# DanielShih — Daniel's Scholar Page
+# Daniel's Scholar Page
 
 [![theme](https://img.shields.io/badge/theme-al--folio-brightgreen.svg)](https://github.com/alshedivat/al-folio)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
