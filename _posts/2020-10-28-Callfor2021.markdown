@@ -1,0 +1,21 @@
+---
+layout: post
+title:  Call for Papers on Medical Images for 2021
+date:   2020-10-28 08:40:16
+description: The post collects three call for papers for medical images in 2021, including IPMI, MIDL, and MICCAI
+---
+
+Call for Papers for Medical Image Processing:
+
+- Information Processing in Medical Imaging (IPMI) 2021:
+[Call for Papers](http://ipmi2021.org/cfp/) Due on December 1st, 2020, 
+Conference Date: June 27th, 2021 at Bornholm, Denmark.
+
+
+- MIDL 2021: [Call for Papers](https://2021.midl.io/covid-19.html) Due
+on February 10th, 2021, Conference Date: July 7, 2021 at Lubeck, Germany.
+
+- MICCAI 2021: [Call for Papers](https://miccai2021.org/en/CALLS.html)
+Due on February 10th, 2021, Conference Date: September 27, 2021 at
+Strasbourg, FRANCE.
+

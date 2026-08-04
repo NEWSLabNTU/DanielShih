@@ -1,0 +1,15 @@
+---
+layout: post
+title:  Best Paper Award in IEEE International Symposium on Cloud and Service Computing (IEEE SC2-2016)
+date:   2017-03-23 16:40:16
+description: Our paper was awarded the Best Paper Award in IEEE SC2 2016
+---
+Our paper, titled “Supporting Edge Intelligence in Service-Oriented
+Smart IoT Applications”, has been awarded the best paper award in
+2016 IEEE International Symposium on Cloud and Service Computing (IEEE
+SC2-2016). The paper can be found at IEEE Expore <a
+href="http://ieeexplore.ieee.org/abstract/document/7876378/"
+target="black">Library</a>. The paper is the partial results of our <a
+href="http://wukong4iox.org/" taget="blank">WuKong</a> Project.
+
+This paper presents the edge intelligence support for smart IoT using the service-oriented architecture. InIoT, there are many sensors deployed for different purposes. Sensors of different modalities must be integrated and their characteristics analyzed to enhance the system intelligence. In this paper, we present the edge computing framework in the WuKong-based IoT architecture. WuKong is an IoT middleware that supports dynamic compositions and deployments of user-defined IoT applications. The edge framework pushes the streaming processing capability from cloud to edge devices, inorder to better support timely and reliable streaming analytics to enhance the performance of smart IoT applications. We have designed annotation based programming primitives for developers to add their own online learning capabilities on edge servers. Using an extendable pipeline design, intelligent components on edge may be used to build smart services inIoT applications.

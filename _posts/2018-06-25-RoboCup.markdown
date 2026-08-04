@@ -1,0 +1,19 @@
+---
+layout: post
+title: First place in 2018 RoboCup Standard Platform League
+date:   2018-07-13 16:40:16
+description: Info for 2018 RoboCup Standard Platform League competition
+---
+NTU RoboPAL 團隊參加 2018 RoboCup 獲得 Challenge Shield 第一名。恭喜實
+驗室的 RoboPAL 團隊。
+
+<div class="img_row">
+    <img class="col one" src="{{ site.baseurl
+    }}/assets/img/RoboCup2018-1.jpg" alt="" title=""/>
+    <img class="col one" src="{{ site.baseurl }}/assets/img/RoboCup2018-2.jpg" alt="" title="example image"/>
+    <img class="col one" src="{{ site.baseurl }}/assets/img/RoboCup2018-3.jpg" alt="" title="example image"/>
+</div>
+<div class="col three caption">
+	First Place of Challeng Shield in 2018 RoboCup Standard Platform League
+</div>
+

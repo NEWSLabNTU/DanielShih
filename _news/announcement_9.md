@@ -1,0 +1,24 @@
+---
+layout: post
+title: 2020 Recruiting 招生
+date: 2020-03-05 17:11:00-0400
+inline: false
+---
+
+研究團隊目前歡迎對機器人，自動駕駛，物聯網，醫療影像類神經網路有興趣的碩士班以及博士班研究生參加本團隊。
+
+研究團隊目前的合作對象包含聯發科技，美國 Intel 實驗室，緯創資通，英國
+亞伯丁大學，美國理立系統，中央研究院，台灣大學醫學院等國內外研究機構與
+公司。
+
+- 2019 研究簡介：<a href="https://www.youtube.com/watch?v=9wZvC0VQRVY" target="blank">2019Research</a>
+- 機器學習與自駕車研究：<a href="{{ site.baseurl }}/projects/3_project/" target="blank">link</a>
+- 醫療人工智慧研究：<a href="{{ site.baseurl }}/projects/5_project/" target="blank">link</a>
+- 論文發表：<a href="{{ site.baseurl }}/publications/" target="blank">link</a>
+
+如果查閱之後，有疑問或是準備參與我的研究團隊，請來信再約時間進一步討論。
+
+More info at <a
+href="{{ site.baseurl }}/blog/2020/Recruit/" target="blank">here</a>.
+
+*** 

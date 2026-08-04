@@ -1,0 +1,21 @@
+// Dev container for building the site with the same Ruby/Jekyll stack as CI.
+// See https://aka.ms/devcontainer.json for the format.
+{
+	"name": "DanielShih (Jekyll 4.3)",
+	"image": "mcr.microsoft.com/devcontainers/ruby:3.4-bookworm",
+	"postCreateCommand": "bundle install",
+	"forwardPorts": [4000],
+	"portsAttributes": {
+		"4000": {
+			"label": "jekyll serve",
+			"onAutoForward": "notify"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Shopify.ruby-lsp"
+			]
+		}
+	}
+}

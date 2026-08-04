@@ -1,0 +1,18 @@
+---
+layout: post
+title:  Keynote speech at the 10tb International Conference on Smart Media and Applications (SMA 2021)
+date:   2021-08-24 08:40:16
+description: Dr. Shih was invited to deliver a keynote speech at the 10th International Conference on Smart Media and Applications (SMA 2021)
+---
+
+Self-driving vehicle and service robots are two typical automation
+systems, which may autonomously behavior and operate. Using
+self-driving vehicles are the example. Self-driving vehicle can ease
+the burden of transportation for city and suburban trips, including
+private and public transportation. However, the speculation of driving
+safety remains open.
+
+Dr. Shih was invited to deliver a keynote speech at the 10th
+International Conference on Smart Media and Applications
+([SMA 2021](https://sites.google.com/view/sma-2021/home?authuser=0)). Here
+is the info for the [keynote speech](https://sites.google.com/view/sma-2021/keynote-speakers?authuser=0).

@@ -1,0 +1,32 @@
+---
+layout: post
+title: 車應該人駕還是自駕?─智慧整合控制系統(CPS)應用實例
+date:   2019-04-21 16:40:16
+description: Talk to general public to introduce cyber-physical systems using autonomous bus as an example.
+---
+
+Cyber-Physical system aims at designing intelligent and autonomous
+systems for the future. In this talk to the general audience, I used
+the autonomous bus as an example to show the transition from automated
+systems into autonomous systems.
+
+智慧整合控制系統(Cyber-Physical system)目標在開發一個自主性系統。在這
+個科創講堂的演講中，我使用了無人駕駛公車作為例子，說明如何經由一個自動化
+系統轉換成自主性系統的交通工具，解決交通壅塞的問題，提升運輸系統的效率。
+
+<div class="img_row">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/PublicTalk_Portrait_20190421-1.jpg" alt="" title="Full Bus"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/PublicTalk_Portrait_20190421-2.jpg" alt="" title="G-Bus"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/PublicTalk_Portrait_20190421-3.jpg" alt="" title="G-Bus"/>
+</div>
+<div class="col three caption">
+	科創講堂 Tech-Talk FORUM 2019 – 資通訊科技
+</div>
+
+主辦單位會將當天的演講剪輯後放在主辦單位的粉絲專頁上，日後再更新。
+
+活動網頁：<a href="https://www.huashan1914.com/w/huashan1914/exhibition_19040218365311562?fbclid=IwAR39arpmsI7u1Vat511fjjoRTjdL00rDH_Mwvn5WKKgBnoeH0EIB8qWCfEE" target="blank">科創講堂 Tech-Talk FORUM 2019 – 資通訊科技</a>
+
+
+
+

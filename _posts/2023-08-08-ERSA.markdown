@@ -1,0 +1,122 @@
+---
+layout: post
+title: ERSA at RTSS 2023
+date:  2023-08-08 08:40:16
+description: Call for Papers for ERSA '23
+---
+
+# Explainability of Real-time Systems and their Analysis (ERSA)
+
+2nd International Workshop on Explainability of Real-time Systems and their Analysis at the IEEE Real-Time Systems Symposium (RTSS 2023) in Taipei, Taiwan.
+
+Today, almost all verification techniques provide answers to questions but do not provide explanations. We will address that.
+
+---
+
+### Important dates
+
+* Submission deadline: September 3, 2023
+* Notification of acceptance: October 1, 2023
+* Final version due: October 15, 2023
+* Workshop: December 5, 2023
+
+
+---
+### Program Chairs
+
+* Bjorn Andersson, SEI/CMU, USA
+* Chi-Sheng (Daniel) Shih, National Taiwan University, Taiwan
+
+---
+
+ 
+
+### Program Committee
+* Ahlem Mifdaoui, UToulouse, France
+* Al Mok, UTexas, USA
+* C. Michael Holloway, NASA, USA
+* Carol Smith, SEI/CMU, USA
+* Chung-Wei Lin, NTU, Taiwan
+* David Cole, DanLAW, USA
+* Dionisio de Niz, SEI/CMU, USA
+* George Romanski, FAA, USA
+* Gernot Heiser,seL4 Systems/USydney, Australia
+* Guillem Bernat, Rapita, UK
+* Hyoseung Kim, UCR, USA
+* Iain Bate, UYork, UK
+* Isaac Amundson, Collins Aerospace, USA
+* John Lehoczky,CMU, USA
+* Manabu Tsukada, UTokyo, Japan
+* Mark Klein, SEI/CMU, USA
+* Sanjoy Baruah, WUSTL, USA
+* Shambwaditya Saha, SEI/CMU, USA
+* Shige Wang, GM, USA
+* Willie Fitzpatrick, AvMC, USA
+
+---
+### Paper submission
+
+Workshop website: [https://sites.google.com/view/ersa23](https://sites.google.com/view/ersa23)
+
+Format of submissions: Extended abstract or position papers to define the area, 4 pages, IEEE Manuscript Template Conf. Proceedings
+
+Online submission: [https://easychair.org/conferences/?conf=ersa23](https://easychair.org/conferences/?conf=ersa23)
+
+
+---
+
+
+### Motivation, Goal, and Topics
+
+#### Background:
+Many software-intensive systems of current and future application domains require (or will require) approval from a certification authority before being deployed. Examples of such application domains include: aircraft, medical devices, spacecraft, autonomous ground vehicles, autonomous air vehicles. Examples of current certification authorities include: Federal Aviation Administration, European Union Aviation Safety Agency, Food and Drug Administration.
+
+
+#### Current pain:
+Today, each established application domain has a set of guidance documents. These tend to be process-oriented; i.e., (i) prescribe how the development of the system should proceed, (ii) how the applicant (the organization that develops the system) should communicate with the certification authority, (iii) state high-level objectives, and (iv) state pitfalls that should be avoided. This mindset has been successful in many domains. For example, among US air carriers, the safety record today is much better than it was decades ago. Unfortunately, this mindset also has some limitations. These include: (i) limitations for future application domains, (ii) limitations on permitting frequent and late changes, (iii) limitations on being process-driven rather than focusing on direct evidence of the safety of the software, and (iv) not taking full advantage of the research within the real-time systems research community: the knowledge of the real-time systems community is not present in these documents and these documents do not cite papers from the real-time systems research community. Achieving safety through extensive testing appears to be problematic because it precludes frequent and late changes. Achieving safety through models fed into verification techniques requires tool qualification. Thus, it is worth exploring alternatives, specifically exploring (i) whether explainability can help, (ii) what explainability means, and (iii) how it can be achieved for real-time systems.
+
+ 
+
+#### Goal:
+The goal is to understand the role, meaning, and value of explanation in critical systems—in particular real-time systems.
+
+ 
+
+#### Past edition:
+[link](https://sites.google.com/view/ersa22)
+
+
+
+---
+
+
+### Non-Exhaustive List of Topics:
+* Things needing explanation (e.g., output of schedulability or WCET analysis, post-mortem/close-call trace)
+* Ways of explaining: Examples (e.g., Gantt chart of a schedule); Proofs (e.g., trees, unsat core); Models (as in a satisfiable assignment)
+* Representations of explanations: Graphical (pictures); Textual; Anthropomorphizing (min-max or forall exist can be viewed as a game); Analogies
+* Building explanation from output from existing tool (e.g., from a proof that is a sequence of lemmas, for each lemma generate a picture)
+* Performance metrics of explanation (e.g., human skill and/or effort needed to understand the explanation)
+* Points in a software development life cycle and persons to which explainability are most valuable
+* Change in certification guidance documents needed for value of explainability to accrue
+* Using ideas from theoretical computer science
+* Computational complexity issues regarding explainability (size of certificate, size of explanation related to explanation of a property versus explanation of the negation of a property, problem and its complementary problem, co-X vs X)
+* Arthur-Merlin protocols, zero-knowledge proofs, probabilistically checkable proofs, interactive proof systems to (i) allow applicant to preserve privacy of some information, (ii) allow certification authority to sample some evidence, (iii) allow certification authority to detect if an applicant is cheating. Of particular interest is the case where the applicant is not just claiming to have performed a computation but is also taking measurement of the “real-world” and the certification authority is interested in checking if the applicant has really taken these measurements.
+* program checking to allow checking the output of complex calculation (or proof)
+* Application of the aforementioned ideas in less formal settings (e.g., assurance case)
+* Use of explanation in a challenge-response protocol between applicant and certification authority
+* Use of explanation as interface between human designers in different teams
+* Inspecting part of an explanation while maintaining some confidence in the claim that it explains
+* Verification procedure that creates a perturbed question from the original question and answers both questions and the perturbed question differs from the original question as little and their answers differ as much as possible
+* Design principles that facilitate explainability (are some schedulers, e.g. TT, easier to explain? are systems that are more “deterministic” easier to explain?)
+* Explainability in other domains (e.g., AI) and their use in explainability of real-time systems
+* Re-interpretation of previously known results (e.g., schedulability tests) in view of explainability
+* Explainability of tools that rely on measurements (e.g., measurement-based WCET analysis)
+* Explainability of real-time systems results in safety engineering
+* Assurances case as a form of explainability
+* Explanations on how design elements satisfy requirements (tracing)
+* Explanation of why a property of the physical world (e.g., the state of a plant controlled by a controller) is satisfied/violated because of an event in the cyber-realm (e.g., deadline miss of control software)
+* Explanations that encourage human engagement and curiosity (i.e., don't dump a large volume of explanations/arguments that kill human curiosity)
+* If a problem comes in two variants, an optimization problem and a decision problem, can the optimization problem variant provide an explanation to the decision problem variant?
+* Root cause analysis
+* Contrastive explanation
+

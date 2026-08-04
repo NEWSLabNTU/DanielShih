@@ -1,0 +1,158 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+name: Chi-Sheng Shih
+email: cshih@csie.ntu.edu.tw
+description: > # this means to ignore newlines until "url:"
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+footer_text: >
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
+url: https://newslabntu.github.io # the base hostname & protocol for your site
+baseurl: /DanielShih # the subpath of your site, e.g. /blog/
+last_updated: # leave blank if you don't want to display last updated
+title: Daniel's Scholar Page
+repository: NEWSLabNTU/DanielShih
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: chishengshih # your GitHub user name
+twitter_username: # your Twitter handle
+linkedin_username: # your LinkedIn user name
+scholar_userid: # your Google Scholar ID
+orcid_id: # your ORCID ID
+medium_username: # your Medium username
+quora_username: # your Quora username
+
+contact_note: >
+  Email is the best way to contact me.
+
+google_analytics: UA-XXXXXXXXX # out your google-analytics code
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+blog_name: Blog for Dr. Chi-Sheng Shih
+blog_description: Collection of some randrom thoughts
+
+# Pagination
+paginate: 5
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+
+# Comments
+disqus_shortname: cs-shih # put your disqus shortname
+
+# Optional features
+show_social_icons:  false
+enable_anchorjs:    false
+enable_katex:       true
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  news:
+    output: true
+    permalink: /news/:path/
+  awards:
+    output: true
+    permalink: /awards/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  services:
+    output: true
+    permalink: /services/:path/
+
+# Front matter defaults. Collection-level `defaults:` keys are not a Jekyll
+# feature (they were silently ignored in the 3.9 site); they belong here.
+defaults:
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+
+news_limit: 6
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Build settings
+markdown: kramdown
+highlighter: rouge # Jekyll 4 dropped pygments; rouge is the only bundled option
+
+kramdown:
+  input: GFM # matches what GitHub Pages applied to the Jekyll 3.9 site
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+  quiet_deps: true
+  # The theme's partials are wired together with @import, which Dart Sass has
+  # deprecated (removal is scheduled for Dart Sass 3.0). Silence the warnings
+  # until the _sass tree is migrated to @use/@forward.
+  silence_deprecations:
+    - import
+
+# Includes & excludes
+include: ['_pages']
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - DEPLOYMENT.md
+  - bin
+  - .ruby-version
+
+# Plug-ins
+plugins:
+    - jekyll-email-protect
+    - jekyll-paginate
+    - jekyll/scholar
+    - jemoji
+
+# Jekyll-Scholar
+scholar:
+
+  last_name: Shih
+
+  style: ./myieee.csl
+  locale: en
+
+  sort_by: year, month
+  order: descending
+
+  source: ./_bibliography
+  bibliography: papers.bib
+  bibliography_template: bibtemplate
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.9.0"
+anchorjs_version: "3.2.2"

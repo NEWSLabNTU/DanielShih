@@ -1,0 +1,19 @@
+---
+layout: post
+title: Comparing the Performance of Zenoh, MQTT, Kafka, and DDS
+date:  2023-05-18 08:40:16
+description: Performance evaluation results among Zenoh, MQTT, Kafka, and DDS.
+---
+
+NEWS Lab worked with ADLink and ZettaScale to evaluate the Quality of Services on sending real-time messages for autonomous vehicles and IoT devices. The results are now posted on the blog and will be reformatted for publication on academic conferences or journals.
+
+### Goal:
+Number of messaging protocols are developed for message services among devices, processes, or containers. However, there is no single solution for all the different design challenges. To support real-time messages for autonomous vehicles and time-sensitive IoT services, the article evaluates the Quality of Services in sending real-time messages. The evaluations are designed to simulate the workload scenarios for autonomous vehicles and time-sensitive IoT services.
+
+### Take-away messages: 
+
+The results showed that Zenoh outperforms DDS, Kafka, and MQTT by several to tens of performance improvements in the multiple-machine scenario and the single-machine scenario. Specifically, Zenoh achieved up to 67 Gbps throughput on single-machine tests and 51 Gbps on multiple-machine tests with a 100 GbE network when the default peer mode was used. It can reach up to 1~2 orders of magnitude improvement on MQTT and Kafka and could double the throughput of DDS. One noticeable thing is that Cyclone DDS performed the best in the latency tests of the single-machine scenario due to its use of the UDP multicast transport mechanism. However, when Zenoh-pico, the microcontroller implementation of Zenoh, which has also realized the UDP multicast transport, is added to the comparison, it attains the lowest latency in all cases. 
+
+### Full Article:
+- Pre-released Blog: [link](https://zenoh.io/blog/2023-03-21-zenoh-vs-mqtt-kafka-dds/)
+- Full Paper: (To-be-announced)
