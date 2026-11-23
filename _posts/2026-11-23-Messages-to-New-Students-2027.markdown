@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Messages to 2027 New Students.
-date:  2026-11-23 09:00:00
+date:  2026-11-23 00:00:00
 description: Messages to 2027 New Students.
 ---
 Congratulations on being admitted to NTU.
